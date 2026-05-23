@@ -1,0 +1,140 @@
+aid: augment-code
+name: Augment Code
+description: Augment Code is a context-aware AI platform for software engineering teams. The flagship is Cosmos, a "unified
+  agents platform" for agentic software development at organizational scale, packaged as a set of specialized agents — Work
+  Dispatcher (triages tickets), PR Author (drives tasks from first commit through merge), Pair Review and Deep Code Review
+  (inline review feedback), and Tester (verification of changes end-to-end). The product also ships the Auggie CLI for local
+  use and IDE plugins for Visual Studio Code and JetBrains. Augment is built around a proprietary Context Engine for codebase
+  understanding and a unified agents runtime with scheduling, sandboxed execution, and human-in-the-loop escalation. Deployment
+  options span local, managed cloud, customer cloud (AWS, GCP), and on-premises. As of this writing Augment does not advertise
+  a public REST API — it is a product-led, partner-driven surface — so this profile documents the product surfaces and developer
+  resources rather than endpoint shapes.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- AI Coding Agent
+- Context Engine
+- IDE Plugin
+- Cosmos
+- Auggie CLI
+- Software Engineering
+url: https://raw.githubusercontent.com/api-evangelist/augment-code/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+- aid: augment-code:cosmos
+  name: Augment Cosmos
+  description: Cosmos is Augment's unified agents platform for agentic software development at organizational scale. It bundles
+    specialized agents — Work Dispatcher (triage), PR Author (first commit through merge), Pair Review and Deep Code Review
+    (inline feedback), and Tester (end-to-end verification) — coordinated by a scheduling and sandboxed execution layer with
+    human-in-the-loop escalation and shared organizational memory.
+  humanURL: https://www.augmentcode.com
+  tags:
+  - Cosmos
+  - Agentic AI
+  - Software Engineering
+  properties:
+  - type: Documentation
+    url: https://docs.augmentcode.com
+- aid: augment-code:auggie-cli
+  name: Auggie CLI
+  description: Auggie is Augment's command-line interface that brings the Augment agent, Context Engine, and tool integrations
+    to the terminal for local development.
+  humanURL: https://docs.augmentcode.com
+  tags:
+  - CLI
+  - Local Development
+  - Developer Tools
+  properties:
+  - type: Documentation
+    url: https://docs.augmentcode.com
+- aid: augment-code:vscode-plugin
+  name: Augment for Visual Studio Code
+  description: IDE plugin that surfaces Augment's Context Engine and agent capabilities inside Visual Studio Code for completion,
+    chat, and inline edits.
+  humanURL: https://docs.augmentcode.com
+  tags:
+  - IDE Plugin
+  - VS Code
+  properties:
+  - type: Documentation
+    url: https://docs.augmentcode.com
+- aid: augment-code:jetbrains-plugin
+  name: Augment for JetBrains
+  description: IDE plugin for IntelliJ IDEA, PyCharm, GoLand, and other JetBrains IDEs.
+  humanURL: https://docs.augmentcode.com
+  tags:
+  - IDE Plugin
+  - JetBrains
+  properties:
+  - type: Documentation
+    url: https://docs.augmentcode.com
+- aid: augment-code:context-engine
+  name: Augment Context Engine
+  description: Proprietary indexing and retrieval engine that gives Augment's agents codebase-aware context — intelligent
+    file selection, organization knowledge, and shared memory across agents — and underpins every Augment product surface.
+  humanURL: https://www.augmentcode.com
+  tags:
+  - Context Engine
+  - Code Intelligence
+  - Retrieval
+  properties:
+  - type: Documentation
+    url: https://docs.augmentcode.com
+common:
+- type: Portal
+  url: https://www.augmentcode.com
+- type: Documentation
+  url: https://docs.augmentcode.com
+- type: Blog
+  url: https://www.augmentcode.com/blog
+- type: SignUp
+  url: https://www.augmentcode.com
+- type: Pricing
+  url: https://www.augmentcode.com/pricing
+- type: Support
+  url: https://docs.augmentcode.com
+- type: Features
+  data:
+  - name: Context Engine
+    description: Codebase-aware indexing and retrieval that powers every agent and IDE integration.
+  - name: Unified Agents Platform
+    description: Cosmos runs Work Dispatcher, PR Author, Pair Review, Deep Code Review, and Tester agents under one scheduling
+      and sandboxing layer.
+  - name: Human-in-the-Loop
+    description: Agents escalate to humans when confidence drops or policy requires review.
+  - name: Organizational Memory
+    description: Shared knowledge and memory across agents and engineers in the same org.
+  - name: Auggie CLI
+    description: Bring Augment's agent and Context Engine to a local terminal.
+  - name: IDE Plugins
+    description: First-party VS Code and JetBrains plugins.
+  - name: Flexible Deployment
+    description: Run on local laptops and dev VMs, in managed Augment cloud, in customer-owned AWS or GCP, or fully on-premises.
+- type: UseCases
+  data:
+  - name: Ticket-to-PR Automation
+    description: Work Dispatcher triages tickets and dispatches work to PR Author, which drives commits through merge.
+  - name: Automated Code Review
+    description: Pair Review and Deep Code Review give inline PR feedback at organization scale.
+  - name: Test Generation and Verification
+    description: The Tester agent exercises changes end-to-end before they ship.
+  - name: Codebase-Aware Development
+    description: IDE plugins and Auggie CLI let individual engineers code with the Context Engine in the loop.
+- type: Integrations
+  data:
+  - name: GitHub
+    description: PR Author opens and updates pull requests; Pair Review and Deep Code Review post inline review feedback.
+  - name: Slack
+    description: Agent notifications and human-in-the-loop interactions in Slack channels.
+  - name: Jira
+    description: Work Dispatcher reads tickets and routes work to specialized agents.
+  - name: CI Systems
+    description: Cosmos integrates with CI for build, test, and verification signal.
+  - name: AWS and GCP
+    description: Customer-cloud deployment supported on AWS and GCP, plus on-premises.
+maintainers:
+- FN: Kin Lane
+  url: http://apievangelist.com
+  email: kin@apievangelist.com
