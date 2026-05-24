@@ -134,6 +134,8 @@ common:
     description: Cosmos integrates with CI for build, test, and verification signal.
   - name: AWS and GCP
     description: Customer-cloud deployment supported on AWS and GCP, plus on-premises.
+- type: LLMsTxt
+  url: https://docs.augmentcode.com/llms.txt
 maintainers:
 - FN: Kin Lane
   url: http://apievangelist.com
