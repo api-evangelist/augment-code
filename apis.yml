@@ -89,7 +89,7 @@ common:
   url: https://docs.augmentcode.com
 - type: Blog
   url: https://www.augmentcode.com/blog
-- type: SignUp
+- type: Signup
   url: https://www.augmentcode.com
 - type: Pricing
   url: https://www.augmentcode.com/pricing
@@ -134,7 +134,7 @@ common:
     description: Cosmos integrates with CI for build, test, and verification signal.
   - name: AWS and GCP
     description: Customer-cloud deployment supported on AWS and GCP, plus on-premises.
-- type: LLMsTxt
+- type: LlmsText
   url: https://docs.augmentcode.com/llms.txt
 maintainers:
 - FN: Kin Lane

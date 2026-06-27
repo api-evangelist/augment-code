@@ -2,17 +2,20 @@
   "repo": "augment-code",
   "feeds": [
     {
-      "source": "https://www.augmentcode.com/blog",
+      "source": "https://www.augmentcode.com/blog/rss.xml",
       "feed_url": "https://www.augmentcode.com/blog/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://docs.augmentcode.com",
-      "error": "HTTPError"
+      "feed_url": "https://docs.augmentcode.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 3,
+  "fetched": "2026-06-27T12:03:07Z"
 }
