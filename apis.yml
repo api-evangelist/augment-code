@@ -83,6 +83,10 @@ apis:
   - type: Documentation
     url: https://docs.augmentcode.com
 common:
+- type: TrustCenter
+  url: security/augment-code-trust-center.yml
+- type: DomainSecurity
+  url: security/augment-code-domain-security.yml
 - type: Portal
   url: https://www.augmentcode.com
 - type: Documentation
