@@ -10,7 +10,19 @@ description: Augment Code is a context-aware AI platform for software engineerin
   a public REST API — it is a product-led, partner-driven surface — so this profile documents the product surfaces and developer
   resources rather than endpoint shapes.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/augment-code.png
 tags:
 - AI Coding Agent
 - Context Engine
