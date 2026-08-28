@@ -10,6 +10,17 @@ description: Augment Code is a context-aware AI platform for software engineerin
   a public REST API — it is a product-led, partner-driven surface — so this profile documents the product surfaces and developer
   resources rather than endpoint shapes.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
