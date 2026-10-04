@@ -66,6 +66,10 @@ apis:
   humanURL: https://www.augmentcode.com
   tags:
   - Cosmos
+  - AI Agents
+  - Software Engineering
+  tags_raw:
+  - Cosmos
   - Agentic AI
   - Software Engineering
   properties:
